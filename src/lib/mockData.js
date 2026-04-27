@@ -173,6 +173,52 @@ export const mockParcels = {
     service: "Colissimo",
   },
 
+  // ── Benamer Nourdine ─────────────────────────────────────
+
+"6V40000000001": {
+    id: "6V30000000001",
+    status: "accepted",
+    statusLabel: "Pris en charge",
+    sender: "Gilles",
+    recipient: { name: "Benamer Nourdine", city: "Alsace", postalCode: "92330" },
+    weight: "117 g",
+    dimensions: "85,60 mm × 53,98 mm",
+    service: "Colissimo",
+  },
+
+  "6V40000000002": {
+    id: "6V30000000002",
+    status: "in_transit",
+    statusLabel: "En transit",
+    sender: "Gilles",
+    recipient: { name: "Benamer Nourdine", city: "Alsace", postalCode: "92330" },
+    weight: "117 g",
+    dimensions: "85,60 mm × 53,98 mm",
+    service: "Colissimo",
+  },
+
+  "6V40000000003": {
+    id: "6V30000000003",
+    status: "out_for_delivery",
+    statusLabel: "En cours de livraison",
+    sender: "Gilles",
+    recipient: { name: "Benamer Nourdine", city: "Alsace", postalCode: "92330" },
+    weight: "117 g",
+    dimensions: "85,60 mm × 53,98 mm",
+    service: "Colissimo",
+  },
+
+  "6V40000000004": {
+    id: "6V30000000004",
+    status: "delivered",
+    statusLabel: "Livré",
+    sender: "Gilles",
+    recipient: { name: "Benamer Nourdine", city: "Alsace", postalCode: "92330" },
+    weight: "117 g",
+    dimensions: "85,60 mm × 53,98 mm",
+    service: "Colissimo",
+  },
+
 };
 
 export const getParcel = (id) => {
