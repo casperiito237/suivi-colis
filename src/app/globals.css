@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1A1A2E;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Header search bar ── */
+.lp-search {
+  border: 1.5px solid #E0E0E0;
+  border-radius: 4px;
+  transition: border-color 0.15s;
+}
+.lp-search:focus-within {
+  border-color: #003189;
+}
+
+/* ── Yellow CTA button ── */
+.btn-yellow {
+  background: #FFCD00;
+  color: #1A1A2E;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: background 0.15s, transform 0.1s;
+}
+.btn-yellow:hover  { background: #f0be00; }
+.btn-yellow:active { transform: scale(0.98); }
+
+/* ── Blue CTA button ── */
+.btn-blue {
+  background: #003189;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.btn-blue:hover { background: #001e5a; }
+
+/* ── Tracking input ── */
+.tracking-input {
+  border: 1.5px solid #E0E0E0;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: border-color 0.15s;
+  outline: none;
+}
+.tracking-input:focus { border-color: #003189; }
+
+/* ── Promo cards ── */
+.promo-card {
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.15s;
+}
+.promo-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.13); }
+
+/* ── FAQ accordion ── */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.faq-answer.open { max-height: 400px; }
+
+/* ── Animations ── */
+@keyframes slideIn {
+  from { opacity:0; transform:translateY(12px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.animate-slideIn { animation: slideIn 0.35s ease forwards; }
+.delay-1 { animation-delay:0.05s; }
+.delay-2 { animation-delay:0.10s; }
+.delay-3 { animation-delay:0.15s; }
+.delay-4 { animation-delay:0.20s; }
+.delay-5 { animation-delay:0.25s; }
+
+/* ── Timeline ── */
+.tl-dot {
+  width:12px; height:12px;
+  border-radius:50%;
+  border:2px solid white;
+  flex-shrink:0;
+}
+
+/* ── Progress bar steps ── */
+@keyframes pulse2 {
+  0%,100%{opacity:1} 50%{opacity:.4}
+}
+.animate-pulse2 { animation: pulse2 2s ease-in-out infinite; }
