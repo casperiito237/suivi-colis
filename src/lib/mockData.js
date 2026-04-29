@@ -6,8 +6,8 @@ export const mockParcels = {
 
   "6V10000000001": {
     id: "6V10000000001",
-    status: "in_transit",
-    statusLabel: "En transit",
+    status: "out_for_delivery",
+    statusLabel: "En cours de livraison",
     sender: "Gilles",
     recipient: { name: "Caron Anthony", city: "Saint-Gilles-Croix-de-Vie", postalCode: "85800" },
     weight: "117 g",
@@ -19,8 +19,8 @@ export const mockParcels = {
 
   "6V20000000001": {
     id: "6V20000000001",
-    status: "in_transit",
-    statusLabel: "En transit",
+    status: "out_for_delivery",
+    statusLabel: "En cours de livraison",
     sender: "Gilles",
     recipient: { name: "Baudemont Sébastien", city: "Beaurepaire", postalCode: "38270" },
     weight: "117 g",
@@ -32,8 +32,8 @@ export const mockParcels = {
 
   "6V30000000001": {
     id: "6V30000000001",
-    status: "in_transit",
-    statusLabel: "En transit",
+    status: "out_for_delivery",
+    statusLabel: "En cours de livraison",
     sender: "Gilles",
     recipient: { name: "Zebardi Adrien", city: "Toulon", postalCode: "83100" },
     weight: "117 g",
@@ -45,8 +45,8 @@ export const mockParcels = {
 
 "6V40000000001": {
     id: "6V40000000001",
-    status: "in_transit",
-    statusLabel: "En transit",
+    status: "out_for_delivery",
+    statusLabel: "En cours de livraison",
     sender: "Gilles",
     recipient: { name: "Benamer Nourdine", city: "Alsace", postalCode: "92330" },
     weight: "117 g",
