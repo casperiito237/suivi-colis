@@ -9,7 +9,7 @@ export const mockParcels = {
     status: "accepted",
     statusLabel: "Pris en charge",
     sender: "Gilles",
-    recipient: { name: "Gerard Mickael", city: "Saint-Dié-des-Vosges", postalCode: "88" },
+    recipient: { name: "Gerard Mickael", city: "Saint-Dié-des-Vosges", postalCode: "88000" },
     weight: "117 g",
     dimensions: "85,60 mm × 53,98 mm",
     service: "Colissimo",
