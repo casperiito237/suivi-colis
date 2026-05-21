@@ -2,14 +2,14 @@
 
 export const mockParcels = {
 
-  // ── Caron Anthony ──────────────────────────────────────
+  // ── Gerard Mickeal ──────────────────────────────────────
 
   "6V10000000001": {
     id: "6V10000000001",
     status: "delivered",
     statusLabel: "Livré",
     sender: "Gilles",
-    recipient: { name: "Caron Anthony", city: "Saint-Gilles-Croix-de-Vie", postalCode: "85800" },
+    recipient: { name: "Gerard Mickeal", city: "Saint-Dié-des-Vosges", postalCode: "85800" },
     weight: "117 g",
     dimensions: "85,60 mm × 53,98 mm",
     service: "Colissimo",
