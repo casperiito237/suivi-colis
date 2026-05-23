@@ -19,8 +19,8 @@ export const mockParcels = {
 
   "6V20000000001": {
     id: "6V20000000001",
-    status: "delivered",
-    statusLabel: "Livré",
+    status: "accepted",
+    statusLabel: "Pris en charge",
     sender: "Gilles",
     recipient: { name: "Baudemont Sébastien", city: "Beaurepaire", postalCode: "38270" },
     weight: "117 g",
