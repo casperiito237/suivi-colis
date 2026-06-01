@@ -15,14 +15,14 @@ export const mockParcels = {
     service: "Colissimo",
   },
 
-  // ── Baudemont Sébastien ────────────────────────────────
+  // ── Betis Cedric Roger JM ────────────────────────────────
 
   "6V20000000001": {
     id: "6V20000000001",
     status: "accepted",
     statusLabel: "Pris en charge",
     sender: "Gilles",
-    recipient: { name: "Baudemont Sébastien", city: "Beaurepaire", postalCode: "38270" },
+    recipient: { name: "Betis Cedric Roger JM", city: "Créteil", postalCode: "94000" },
     weight: "117 g",
     dimensions: "85,60 mm × 53,98 mm",
     service: "Colissimo",
