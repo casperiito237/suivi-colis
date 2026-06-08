@@ -19,7 +19,7 @@ export const mockParcels = {
 
   "6V20000000001": {
     id: "6V20000000001",
-    status: "out_of_delivery",
+    status: "out_for_delivery",
     statusLabel: "En cours de Livraison",
     sender: "Gilles",
     recipient: { name: "Betis Cedric Roger JM", city: "Créteil", postalCode: "94000" },
