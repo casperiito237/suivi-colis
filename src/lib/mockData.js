@@ -28,14 +28,14 @@ export const mockParcels = {
     service: "Colissimo",
   },
 
-  // ── Zebardi Adrien ─────────────────────────────────────
+  // ── DE SMET ─────────────────────────────────────
 
   "6V30000000001": {
     id: "6V30000000001",
-    status: "delivered",
-    statusLabel: "Livré",
+    status: "accepted",
+    statusLabel: "Pris en charge",
     sender: "Gilles",
-    recipient: { name: "Zebardi Adrien", city: "Toulon", postalCode: "83100" },
+    recipient: { name: "De Smet Jean-Phillipe", city: "Saint-Dizier", postalCode: "52100" },
     weight: "117 g",
     dimensions: "85,60 mm × 53,98 mm",
     service: "Colissimo",
