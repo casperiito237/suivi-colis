@@ -35,7 +35,7 @@ export const mockParcels = {
     status: "accepted",
     statusLabel: "Pris en charge",
     sender: "Gilles",
-    recipient: { name: "De Smet Jean-Phillipe", city: "Saint-Dizier", postalCode: "52100" },
+    recipient: { name: "De Smet Jean-Phillipe", city: "22 bis Rue de la Libération - Jussey ", postalCode: "70500" },
     weight: "117 g",
     dimensions: "85,60 mm × 53,98 mm",
     service: "Colissimo",
